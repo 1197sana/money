@@ -29,7 +29,7 @@ var simulation = d3.forceSimulation()
 
 
 d3.queue()
-.defer(d3.csv, "january.csv")
+.defer(d3.csv, "January.csv")
 .await(ready);
 
 function ready (error, datapoints) {
