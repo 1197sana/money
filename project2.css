@@ -1,0 +1,34 @@
+a { font-family: 'Dancing Script', cursive; }
+
+h1 {
+
+  font-family: 'Dancing Script', cursive;
+  color:Black;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+h2 {
+	
+font-family: 'Dancing Script', cursive;
+  color:Black;
+  font-size: 20px;
+  text-align: center;
+}
+
+h3 { 
+font-family: 'Dancing Script', cursive;
+  color:Black;
+  font-size: 20px;
+  text-align: center;
+}
+
+#description{
+background-color:transparent;
+width:250px;
+margin-top:140px;
+margin-left:100px;
+position:fixed;
+padding:3px;
+}

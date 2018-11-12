@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8"/>
+    <title>About</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="project2.css">
+    <a href = "index.html">Home </a> &nbsp;&nbsp;&nbsp;<a href="About.html">About</a>&nbsp;&nbsp; <a href="January.html">January</a>&nbsp;&nbsp; </a>
+
+
+</head>
+<body>
+
+  <h1>About</h1>
+
+  <h2>Description</h2>
+
+  	<p> <i>Where does my money go?</i> is intended to help me visualize my spending habits out of the NYU Abu Dhabi comfort zone. The bubble chart on my website represents my expenses for the month of July, my last month in New York City as it was the most recent. By using this website, I can easily see the different categories I spend money in as well as in what category I spend the most money i.e. dining out. The bubble chart depicts my spending habits in the form of bubbles, each bubble has a customized image intending to immediately let me know what category it represents. I can also hover over a bubble which will cause it to expand and the category name and amount spent to show up. Having a sidebar on the side allows me to navigate between different pages such as the January page which shows my initial spending habits for my first month in New York City. 
+    </p>
+
+    <h2>Motivation and Process</h2>
+
+    <p>My motivation for this project came from my lack of finance skills every time I study abroad. During both of my study abroad experiences I have tended to overspend as I find myself in unfamiliar cities that are out of my comfort zone. While I have tried to organize my bank statements and figure out where I go wrong, I have never been very successful as the process can get overwhelming. So, for this project I decided to focus on expenses from my semester abroad in New York City as it was my most recent study abroad experience and also because I was not reliant on campus dirhams and the convenience of the NYU Abu Dhabi campus. As such, the website I made for myself has really helped me clearly see my spending habits during my last and first month in New York City. To create my project, I first consolidated data from my bank statements using the summarize data tool in Microsoft Excel. With this I created two CSV files (July and January) with the relevant data such as name, id and amount spent. I also created the HTML and CSS files to put in the basic titles on my page. I then created a JavaScript file in order to use D3.js which is a JavaScript library that can be used to visualize data. Following tutorials online I was successfully able to create a bubble chart and add in features such as making them expand when hovered over and add unique background images for each bubble. I created the bubble images and added them to my chart and then made a sidebar in order to allow easy navigation between the different pages on my website.</p>
+
+    <h2>Design</h2>
+
+    <p>The aesthetics of my website was particularly important to me for this project as my design inspiration came from beautiful Tumblr themes I used to envy in high school. Now that I had some confidence in my web development skills I decided to use HTML and CSS to try my hand at making a website that looked like popular “hipster” Tumblr themes that girls I used to follow on Tumblr made. To do this I took a minimalistic approach and used solid colors with only some designs. So, while my background is a basic white and my font is black, I have added some pale pink with marble designs to my bubble images, added a small grey quotation mark in the sidebar and used the Dancing Script font in cursive to keep up with the design trends seen in these popular themes. This font is easily legible while also being unique enough to make my theme look “hipster”.  I also made sure that the icons I used were made with thin black lines to stay in line with my clean minimalistic theme. <br><br>
+
+    In terms of the overall website itself, each page has my website title as well as the title of the bubble chart shown so it is very clear as to what is displayed on that page. The bubble chart title includes the dollar sign so the currency of my spending is clear and also because I couldn’t add the dollar signs to the amount spent section in my csv file. I believe this error occurred because the amount was used to manipulate the size of the bubbles on my page, so the bigger the bubble the more money I spent. I also created a sidebar on the left side of my page which included the navigation links to different pages on the website as well as a short description of the chart seen on that page and the total amount spent that month. I chose to put the January bubble chart on a different page because I did not want to take away focus from the July bubble chart on my main page as it showed my most recent habits in New York which is what I cared about the most. <br><br>
+
+    As Janet Murray states that the computer is a <b>participatory medium</b>, I had to keep in mind that the user (even though it is me) will want to interact with the website and make things happen in response to actions such as clicking or hovering. This is why I chose to add the hovering feature which causes the bubbles to change size when the cursor hovers on the bubbles. Moreover, I also included some common digital conventions that script us in a <b>transparent</b> way as mentioned in her paper such as the underlined text in my sidebar cueing us to the presence of a link. 
+    </p>
+    
+    <h2>Major Challenges + Data Sources</h2>
+
+    <p>Using D3.js was quite challenging as the code seemed to get quite complicated so much so that even the solutions from stack overflow got difficult to implement. Nonetheless, it was from  <a href = "https://stackoverflow.com/questions/10805184/show-data-on-mouseover-of-circle#comment49667102_16780756">this</a> stack overflow question where I was able to get the initial code to add a tooltip and <a href = "https://stackoverflow.com/questions/26511748/d3-js-circle-hover-animation">this</a> one to figure out how to make the bubbles change sizes when hovered over. <a href = "https://www.youtube.com/watch?v=yxr1IZ3MrAw ">These</a> tutorials by Jonathan Soma are what helped me create my bubble chart, while they were not very difficult to follow, I did have to visit the Unix lab to figure out why my background images were not showing up. This was my biggest problem as I followed the tutorial step by step and redid the entire project from scratch to make the images fill the bubbles before deciding to visit the Unix lab. My other data sources include my Wells Fargo bank statements and <a href = "http://jupiterthemes.tumblr.com/">jupiterthemes</a> on Tumblr who I used to get inspiration from my theme.</p>
+
+    <h2>Next Steps</h2>
+
+    <p>I would like to work with the D3 library a bit more to figure out how to make my bubbles move away from each other when hovered over as suggested to me during <b>user testing</b>. I think this will make my chart more aesthetically pleasing. I also want to populate my page with small textboxes that show where I spent the most money in each category, for example a small text box near the Dining Out bubble with the name of the store I spent the most money at. This would give me a better idea of why I spent a lot of money in certain categories. 
+</p>
+   
+</body>
+
+
+</html>

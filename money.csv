@@ -1,0 +1,11 @@
+id,name,sales,image_path
+Dining,Dining,305,images/dining.png
+Out,Out,29,images/out.png
+Groceries,Groceries,79,images/Groceries.png	
+Misc,Misc,23,images/Misc.png
+Phone,Phone,15,images/Phone.png
+MTA,MTA,77,images/MTA.png
+Shopping,Shopping,279,images/Shopping.png
+Subscription,Subscription,32,images/Subscription.png
+Transport,Transport,118,images/Transport.png
+Travel,Travel,73,images/Travel.png
